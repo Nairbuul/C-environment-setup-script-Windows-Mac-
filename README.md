@@ -41,7 +41,7 @@ code --list extensions | findstr /C:"ms-vscode.cmake-tools" > nul 2>&1 || code -
 <br><br><br>
 ## MinGW Installation and Setup.
 Click on this link and follow the installation instructions. [MinGW install](https://sourceforge.net/projects/mingw/)
-
+![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/0bd0c2d4-26c4-4f53-a583-d44567adbeb0)<br>
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/820e4ec0-957d-4bdb-be69-45acb0c4c663) <br>
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/86749944-451d-4292-a601-aa5960b537d1) <br>
 
