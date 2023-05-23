@@ -49,6 +49,7 @@ REM Install Visual Studio Code Cmake Tools Extension (if needed)
 code --list extensions | findstr /C:"ms-vscode.cmake-tools" > nul 2>&1 || code --install-extension ms-vscode.cmake-tools
 ``` 
 <br><br><br>
+#### Images depicting on how to create and run a batch file.
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/43e2eb3f-75bd-447b-87b1-04290df99c09)  <br>
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/04b4c3b8-78f4-49dc-b39c-c6967ccd8a36)  <br>
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/2fe13bc3-4e20-405b-bd1e-068f731880c4)  <br>
