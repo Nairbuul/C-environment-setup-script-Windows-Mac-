@@ -20,6 +20,12 @@ where cmake.exe > nul 2>&1 || choco install cmake --installargs 'ADD_CMAKE_TO_PA
 REM Install Clang C++ compiler (if needed)
 where clang.exe > nul 2>&1 || choco install llvm -y
 
+REM Install Google Chrome web browser (if needed)
+where chrome.exe > nul 2>&1 || choco install googlechrome -y
+
+REM Install TightVNC VNC server (if needed)
+where tvnserver.exe > nul 2>&1 || choco install tightvnc -y
+
 REM Install Visual Studio Code text editor (if needed)
 where code.exe > nul 2>&1 || choco install vscode -y
 
@@ -31,12 +37,6 @@ code --list-extensions | findstr /C:"ms-vscode.cpptools" > nul 2>&1 || code --in
 
 REM Install Visual Studio Code Cmake Tools Extension (if needed)
 code --list extensions | findstr /C:"ms-vscode.cmake-tools" > nul 2>&1 || code --install-extension ms-vscode.cmake-tools
-
-REM Install Google Chrome web browser (if needed)
-where chrome.exe > nul 2>&1 || choco install googlechrome -y
-
-REM Install TightVNC VNC server (if needed)
-where tvnserver.exe > nul 2>&1 || choco install tightvnc -y
 ``` 
 <br><br><br>
 ## MinGW Installation and Setup.
