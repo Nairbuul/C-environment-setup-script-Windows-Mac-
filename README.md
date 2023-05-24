@@ -13,14 +13,15 @@ Type in y and press enter. <br>
 
 ### Batch File Creation.
 Copy and paste this into  a new txt document and then change the namme so the ___.txt is now ___.bat <br>
-Now we will right click the bat file and run it as an administrator. We will do this 3x just to be sure everything is installed.
+Chocolatey
 ```
 REM Install Chocolatey (if needed)
 where choco.exe > nul 2>&1 || powershell.exe -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))"
+```
+<br>
 
-REM refreshing environment. 
-call refreshenv.cmd
-
+Build
+```
 REM Install Git version control system (if needed)
 where git.exe > nul 2>&1 || choco install git -y
 
@@ -35,7 +36,12 @@ where chrome.exe > nul 2>&1 || choco install googlechrome -y
 
 REM Install TightVNC VNC server (if needed)
 where tvnserver.exe > nul 2>&1 || choco install tightvnc -y
+```
 
+<br>
+
+VSCode (unfinished)
+```
 REM Install Visual Studio Code text editor (if needed)
 where code.exe > nul 2>&1 || choco install vscode -y
 
@@ -47,7 +53,8 @@ code --list-extensions | findstr /C:"ms-vscode.cpptools" > nul 2>&1 || code --in
 
 REM Install Visual Studio Code Cmake Tools Extension (if needed)
 code --list extensions | findstr /C:"ms-vscode.cmake-tools" > nul 2>&1 || code --install-extension ms-vscode.cmake-tools
-``` 
+```
+
 <br><br><br>
 #### Images depicting on how to create and run a batch file.
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/43e2eb3f-75bd-447b-87b1-04290df99c09)  <br>
