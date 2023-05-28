@@ -12,21 +12,22 @@ Type in y and press enter. <br>
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/42110158-bccb-4700-a8c0-9a5bfa94e50f)  <br><br>
 
 ### Batch File Creation.
-Copy and paste this into  a new txt document and then change the namme so the ___.txt is now ___.bat <br>
-Chocolatey
+To create a batch file create a new .txt file and rename it so that it ends with .bat.
+
+#### Chocolatey
 ```
 REM Install Chocolatey (if needed)
 where choco.exe > nul 2>&1 || powershell.exe -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))"
 ```
 <br>
 
-Build
+#### Build
 ```
 REM Install Git version control system (if needed)
 where git.exe > nul 2>&1 || choco install git -y
 
 REM Install CMake build system (if needed)
-where cmake.exe > nul 2>&1 || choco install cmake --installargs 'ADD_CMAKE_TO_PATH=User'
+where cmake.exe > nul 2>&1 && choco upgrade cmake|| choco install cmake --installargs 'ADD_CMAKE_TO_PATH=User'
 
 REM Install Clang C++ compiler (if needed)
 where clang.exe > nul 2>&1 || choco install llvm -y
@@ -40,7 +41,7 @@ where tvnserver.exe > nul 2>&1 || choco install tightvnc -y
 
 <br>
 
-VSCode (unfinished)
+#### VSCode 
 ```
 REM Install Visual Studio Code text editor (if needed)
 where code.exe > nul 2>&1 || choco install vscode -y
@@ -48,25 +49,24 @@ where code.exe > nul 2>&1 || choco install vscode -y
 REM refreshing environment.
 call refreshenv.cmd
 
+cd /d %~dp0
+for /F "tokens=*" %%A in (name of text file .txt) do %%A
+```
+Create a text file with these comamnds and put the name of the text file between the bracket in the command above.
+
+```
 REM Install Visual Studio Code C++ extension (if needed)
 code --list-extensions | findstr /C:"ms-vscode.cpptools" > nul 2>&1 || code --install-extension ms-vscode.cpptools
 
 REM Install Visual Studio Code Cmake Tools Extension (if needed)
 code --list extensions | findstr /C:"ms-vscode.cmake-tools" > nul 2>&1 || code --install-extension ms-vscode.cmake-tools
 ```
-
-<br><br><br>
-#### Images depicting on how to create and run a batch file.
-![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/43e2eb3f-75bd-447b-87b1-04290df99c09)  <br>
-![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/04b4c3b8-78f4-49dc-b39c-c6967ccd8a36)  <br>
-![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/2fe13bc3-4e20-405b-bd1e-068f731880c4)  <br>
-![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/b244b240-0cfd-4e94-9675-f915f8f1e46c)  <br>
-![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/6aeb78b8-3c32-4b25-b481-cfe642b33cd9)  <br>
-![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/73babd0b-5e37-4216-b74c-6057e2ac4424)  <br>
-![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/e12ef783-d520-4a73-9aef-6b2a828d6f8c)  <br>
+You should end up with three .bat files and a .txt file. <br>
+![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/d3a6b6b4-2cab-4cbe-affa-41cca276bef2) <br>
+![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/ad6b4671-8c25-4af5-86e7-8381233cab0f) <br>
 
 
-<br><br><br>
+<br><br>
 ## MinGW Installation
 Click on this link and follow the installation instructions. [MinGW install](https://sourceforge.net/projects/mingw/) <br> 
 
