@@ -28,3 +28,16 @@ Open the terminal. <br>
 - If the version is less than 14.0.03 follow these steps.
   - Remove the old tools using this command "sudo rm -rf /Library/Developer/CommandLineTools"
   - Then reinstall the tools using this command "xcode-select --install"
+
+## VSC and Extension
+- If VSCode is not installed paste this command into the terminal "brew install --cask visual-studio-code"
+- Extensions download
+  - Cmake tools
+  - C/C++
+
+![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/44cd96dd-37f5-41ed-9702-662bf891ab9c) <br>
+![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/40babe5c-0de9-4a7a-a753-a35409496afe) <br>
+![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/d50051d2-e9cb-4b9c-84ac-7d6f3ca2083a) <br>
+
+
+
