@@ -12,28 +12,12 @@ Open the terminal. <br>
   
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/47bfa352-cccd-4aa5-af33-8bc5983c9e68) <br>
 
-## Git
-- Check if git is installed using "git --version"
-- If it is not installed paste this command into the terminal "brew install git"
-- If it is installed and the version is less than 2.41.0 paste this command into the terminal "brew upgrade git"
+## Script to Cmake/git/vsc 
 
-## Cmake
-- Check if cmake is installed using "cmake --version"
-- If it is not installed paste this command into the terminal "brew install cmake"
-- If the version is less than 3.26.4 paste this command into the terminal "brew upgrade cmake"
 
-## Clang
-- Check if clang is installed using "clang --version".
-- If it is not installed paste this command into the terminal "xcode-select --install"
-- If the version is less than 14.0.03 follow these steps.
-  - Remove the old tools using this command "sudo rm -rf /Library/Developer/CommandLineTools"
-  - Then reinstall the tools using this command "xcode-select --install"
-
-## VSC and Extension
-- If VSCode is not installed paste this command into the terminal "brew install --cask visual-studio-code"
-- Extensions download
-  - Cmake tools
-  - C/C++
+## VSC extensions to download.
+- Cmake tools
+- C/C++
 
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/44cd96dd-37f5-41ed-9702-662bf891ab9c) <br>
 ![image](https://github.com/Nairbuul/Lab_00-Write-Up/assets/42011526/40babe5c-0de9-4a7a-a753-a35409496afe) <br>
