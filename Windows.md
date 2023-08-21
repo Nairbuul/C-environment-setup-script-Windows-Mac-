@@ -3,7 +3,7 @@
 - Pasadena City College  <br>
 
 # Index:
-[Powershell Prerequesite](#Powershell-Prerequesite)
+## [Powershell Prerequesite](#Powershell-Prerequesite)
 
 ## Powershell Prerequesite
 Type PowerShell in the search bar and run it as administrator.  <br>
