@@ -6,3 +6,5 @@ call refreshenv.cmd
 
 cd /d %~dp0
 for /F "tokens=*" %%A in (name of text file .txt) do %%A
+
+pause
