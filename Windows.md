@@ -5,8 +5,8 @@
 # Index:
 You can either manually create and run the batchfile or download it. You ***do not*** have to do both.
 - ### [Powershell Prerequesite](#Powershell-Prerequesite) 
-- ### [Manual Batchfile Creation](#Second-Heading)
-- ### [Download Batchfile](#Batch-File-Download)
+- ### [Manual Batchfile Creation](#Batch_File_Creation)
+- ### [Download Batchfile](#Batch_File_Download)
 - ### [Mingw Installation](#MinGW-Installation)
 <br><br><br><br><br><br><br>
 
@@ -22,6 +22,7 @@ Type in y and press enter. <br>
 
 <br><br><br><br><br><br><br>
 
+<a name="Batch_File_Creation"></a>
 ## 🟢 Batch File Creation
 To create a batch file create a new .txt file and rename it so that it ends with .bat.
 
@@ -78,6 +79,7 @@ You should end up with three .bat files and a .txt file. <br>
 
 <br><br><br><br><br><br><br>
 
+<a name="Batch_File_Download"></a>
 ## 🟢 Batch File Download
 Go to this [link](https://github.com/Nairbuul/Lab_00-Write-Up/tree/main/Windows) and download these files. <br>
 Make sure you completed the [Powershell Prerequesite](#Powershell-Prerequesite) then run these files in this order as ADMINISTRATOR.
