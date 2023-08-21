@@ -4,13 +4,14 @@
 
 # Index:
 You can either manually create and run the batchfile or download it. You ***do not*** have to do both.
-- ### [Powershell Prerequesite](#Powershell-Prerequesite) 
+- ### [Powershell Prerequesite](#Powershell_Prerequesite) 
 - ### [Manual Batchfile Creation](#Batch_File_Creation)
 - ### [Download Batchfile](#Batch_File_Download)
 - ### [Mingw Installation](#MinGW-Installation)
 <br><br><br><br><br><br><br>
 
 <a name="Powershell_Prerequesite"></a>
+
 ## 🟢 Powershell Prerequesite 
 Type PowerShell in the search bar and run it as administrator.  <br>
 Then inside the shell type "Set-ExecutionPolicy RemoteSigned"   <br><br>
