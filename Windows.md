@@ -5,7 +5,7 @@
 # Index:
 You can either manually create and run the batchfile or download it. You ***do not*** have to do both.
 - ### [Powershell Prerequesite](#Powershell-Prerequesite) 
-- ### [Manual Batchfile Creation](#Batch_File_Creation)
+- ### [Manual Batchfile Creation](#Second-Heading)
 - ### [Download Batchfile](#Batch-File-Download)
 - ### [Mingw Installation](#MinGW-Installation)
 <br><br><br><br><br><br><br>
@@ -21,6 +21,7 @@ Type in y and press enter. <br>
 
 <br><br><br><br><br><br><br>
 
+<a id>="Second-Heading></a>
 ## 🟢 Batch File Creation
 To create a batch file create a new .txt file and rename it so that it ends with .bat.
 
