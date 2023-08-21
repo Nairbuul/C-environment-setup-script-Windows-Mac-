@@ -6,3 +6,5 @@ where cmake.exe > nul 2>&1 && choco upgrade cmake|| choco install cmake --instal
 
 REM Install Clang C++ compiler (if needed)
 where clang.exe > nul 2>&1 || choco install llvm -y
+
+pause
